@@ -1,0 +1,58 @@
+@font-face {
+    /* Nombre que se le asignara a la fuente*/
+    font-family: 'play';
+    src: url('fuente/PlaypenSans-ExtraLight.ttf');
+    /* Se selecciona el tamaño y el estilo que se le dara*/
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,rgb(253, 140, 159), rgb(206, 133, 206), rgb(191, 240, 252));
+    display: grid;
+    justify-content: center;
+    padding-top: 25px;
+    font-family: cursive;
+
+}
+.contenedor{
+    border: 3px solid lightcoral;
+    width: 800px;
+    padding: 10px;
+    font-family: cursive;
+}
+.estiloTarea{
+    background-color: rgb(255, 142, 142);
+    border: solid 3px rgb(178, 75, 204);
+    display: flex;
+    font-family: 'play';
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.completa{
+    color: rgb(1, 92, 1);
+}
+.eliminar{
+    color: rgb(221, 0, 0);
+}
+.marcarCompleto{
+    text-decoration: line-through;
+    background-color: azure;
+    text-align: center;
+}
+.marcador{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid lightcoral;
+    width: 800px;
+    font-family: cursive;
+}
